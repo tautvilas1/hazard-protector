@@ -26,6 +26,7 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.google.android.gms:play-services:8.3.0'
     compile files('jar/simple-xml-2.7.1.jar')
+    compile 'org.jsoup:jsoup:1.10.1'
     //compile files('jar/ormlite-core-5.0.jar')
     //compile files('jar/mysql-connector-java-5.1.40-bin.jar')
 }

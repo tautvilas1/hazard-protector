@@ -20,6 +20,7 @@ import java.util.concurrent.Future;
 import main.files.myapp.myapp.controller.LocationServices.NewsFeed.ParseXML;
 import main.files.myapp.myapp.model.*;
 import main.files.myapp.myapp.model.XMLModels.Article;
+import main.files.myapp.myapp.test.SaveArticle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,14 +60,22 @@ public class MainActivity extends AppCompatActivity {
                 article.setTitle(item.getElementsByTagName("title").item(0).getTextContent());
                 article.setDescription(item.getElementsByTagName("description").item(0).getTextContent());
                 article.setLink(item.getElementsByTagName("link").item(0).getTextContent());
-                article.setPubDate(item.getElementsByTagName("pubDate").item(0).getTextContent());
+                article.setPublishDate(item.getElementsByTagName("pubDate").item(0).getTextContent());
+//                article.setThumbnail(item.getElementsByTagName("media").item(0).getTextContent());
+//                article.setCredit(item.getElementsByTagName("media").item(2).getTextContent());
 
-                System.out.println(article.toString());
+
 
                 //Add all the categories
                 for(int b = 0; b < item.getElementsByTagName("category").getLength();b++) {
                     article.getTags().add(item.getElementsByTagName("category").item(b).getTextContent());
                 }
+
+//                System.out.println(article.toString());
+
+
+                SaveArticle saveArticle = new SaveArticle(article);
+                saveArticle.start();
 
 
             }
