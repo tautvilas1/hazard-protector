@@ -29,17 +29,20 @@ public class SaveArticle extends Thread{
         try {
             DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
             Date date = new Date();
+//            System.out.println("Tags in save: "+article.getTagsString());
+            //                    .data("tags", article.getTagsString())
+
             Document doc = connect("http://t-simkus.com/final_project/save_article.php")
                     .data("title", article.getTitle())
                     .data("link", article.getLink())
                     .data("description", article.getDescription())
                     .data("publishDate", article.getPublishDate())
                     .data("credit", article.getCredit())
-//                    .data("tags", article.getTagsString())
-//                    .data("thumbnail", article.getThumbnail())
-//                    .data("dateAdded", dateFormat.format(date))
                     .userAgent("Mozilla")
                     .post();
+//                    .data("thumbnail", article.getThumbnail())
+//            .data("dateAdded", dateFormat.format(date))
+
         }
         catch (IOException e) {
             e.printStackTrace();

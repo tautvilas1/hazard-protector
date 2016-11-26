@@ -8,9 +8,11 @@ require_once("config.php");
 $table = "article";
 
 $columns = array("title","link","description","thumbnail","publishDate","credit","tags","dateAdded");
-$values = array($_POST['title'],$_POST['link'],$_POST['description'],$_POST['publishDate'],$_POST['credit'],$_POST['tags'],$_POST['dateAdded']);
+$values = array($_POST['title'],$_POST['link'],$_POST['description'],$_POST['thumbnail'],$_POST['publishDate'],$_POST['credit'],$_POST['tags'],$_POST['dateAdded']);
 
 query::insert($conn,$table,$columns,$values);
+
+echo 'Query completed';
 
 
 ?>

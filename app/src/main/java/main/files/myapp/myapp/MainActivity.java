@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     article.getTags().add(item.getElementsByTagName("category").item(b).getTextContent());
                 }
 
-//                System.out.println(article.toString());
+                System.out.println(article.toString());
 
 
                 SaveArticle saveArticle = new SaveArticle(article);

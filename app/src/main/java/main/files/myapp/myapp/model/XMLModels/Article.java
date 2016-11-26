@@ -48,7 +48,7 @@ public class Article
     }
 
     public String getTagsString() {
-        String result = null;
+        String result = "";
         for(int i = 0; i < tags.size();i++) {
             result += tags.get(i) + ",";
         }
@@ -111,7 +111,8 @@ public class Article
         return "Title: "+ title + "\n"+
                 "Link: "+ link + "\n"+
                 "Description: " +description + "\n"+
-                "Publish date: " + publishDate;
+                "Publish date: " + publishDate + "\n"+
+                "Tags: " + getTagsString();
     }
 
 
