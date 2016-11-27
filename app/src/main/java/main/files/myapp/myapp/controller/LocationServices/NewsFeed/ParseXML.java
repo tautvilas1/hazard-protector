@@ -59,6 +59,7 @@ public class ParseXML implements Callable<Document> {
     private Document readXmlFromUrl(String url) throws IOException, ParserConfigurationException, SAXException
     {
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+        dbf.setNamespaceAware(true);
         DocumentBuilder db = dbf.newDocumentBuilder();
 
         HttpURLConnection conn = (HttpURLConnection) new URL(url).openConnection();

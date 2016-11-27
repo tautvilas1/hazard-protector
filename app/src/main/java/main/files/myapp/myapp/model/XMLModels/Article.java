@@ -15,12 +15,12 @@ import java.util.ArrayList;
  */
 public class Article
 {
-    private String publishDate;
-    private String title;
-    private String description;
-    private String link;
-    private String thumbnail;
-    private String credit;
+    private String publishDate = "";
+    private String title = "";
+    private String description = "";
+    private String link = "";
+    private String thumbnail = "";
+    private String credit = "";
     private ArrayList<String> tags = new ArrayList<String>();
 
     public Article() {
@@ -112,6 +112,8 @@ public class Article
                 "Link: "+ link + "\n"+
                 "Description: " +description + "\n"+
                 "Publish date: " + publishDate + "\n"+
+                "Thumbmail: " +thumbnail + "\n"+
+                "Credit: " + credit + "\n"+
                 "Tags: " + getTagsString();
     }
 
