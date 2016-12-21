@@ -29,7 +29,10 @@ $result = $query->fetchAll();
 ?>
 <div id="container">
 
-<?php echo json_encode($result); ?>
+
+<?php 
+$data = array("data"	=>		$result);
+echo json_encode($data); ?>
 
 </div>
 <?php
