@@ -19,7 +19,7 @@ class query {
 		for($b = 1; $b < count($values)+1;$b++) {
 			$q->bindParam($b,$values[$b-1]);
 		}
-		$q->execute();
+		return $q->execute();
 		
 	}
 
@@ -37,7 +37,7 @@ class query {
 		for($b = 1; $b < count($values)+1;$b++) {
 			$q->bindParam($b,$values[$b-1]);
 		}
-		$q->execute();
+		return $q->execute();
 		
 	}
 
@@ -116,7 +116,7 @@ class query {
 			$c++;
 		}
 		}
-		$q->execute();
+		return $q->execute();
 	}
 
 }

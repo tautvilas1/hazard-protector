@@ -9,22 +9,31 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show"
-        android:id="@+id/show_location"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="getFeed" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
         android:id="@+id/lblContent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="65dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:id="@+id/show_location"
+        android:onClick="getFeed"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/lblContent"
+        android:layout_marginTop="125dp" />
+
+    <Button
+        android:text="Get Articles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/show_location"
+        android:id="@+id/button"
+        android:onClick="getArticles" />
 </RelativeLayout>

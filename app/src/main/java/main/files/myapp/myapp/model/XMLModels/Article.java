@@ -48,10 +48,11 @@ public class Article
     }
 
     public String getTagsString() {
-        String result = "";
+        String result = "|";
         for(int i = 0; i < tags.size();i++) {
             result += tags.get(i) + ",";
         }
+        result += "|";
         return result;
     }
 

@@ -28,6 +28,7 @@ public class SaveArticle extends Thread{
                     .data("description", article.getDescription())
                     .data("publishDate", article.getPublishDate())
                     .data("credit", article.getCredit())
+                    .data("tags", article.getTagsString())
                     .data("thumbnail", article.getThumbnail())
                     .userAgent("Mozilla")
                     .post();

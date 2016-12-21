@@ -1,11 +1,11 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
+<title>Get Articles</title>
 <meta charset="UTF-8">
 </head>
 <body>
 <?php
-
 // Report all errors
 
 error_reporting(E_ALL);
@@ -20,11 +20,19 @@ $table = "article";
 VALIDATE IF ARTICLE ALREADY EXISTS
 */
 
-$columns = array("title");
-$values = "Miami’s Cuban Exiles Celebrate Castro’s Death";
+$columns = array();
+$values = array();
 $query = query::select($conn,$table,$columns,$values);
-print_r($query);
 
+$result = $query->fetchAll();
+
+?>
+<div id="container">
+
+<?php echo json_encode($result); ?>
+
+</div>
+<?php
 // $date = date('Y-m-d H:i:s');
 
 // $columns = array("title","link","description","thumbnail","publishDate","credit","tags","dateAdded");

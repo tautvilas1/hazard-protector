@@ -1,4 +1,4 @@
-package main.files.myapp.myapp.model;
+package main.files.myapp.myapp.model.Users;
 
 import android.content.Context;
 

@@ -13,8 +13,6 @@ public class Channel
 
    private String lastBuildDate;
 
-   private Item[] item;
-
    private String language;
 
    private String copyright;
@@ -59,15 +57,7 @@ public class Channel
       this.lastBuildDate = lastBuildDate;
    }
 
-   public Item[] getItem ()
-   {
-      return item;
-   }
 
-   public void setItem (Item[] item)
-   {
-      this.item = item;
-   }
 
    public String getLanguage ()
    {
@@ -92,6 +82,6 @@ public class Channel
    @Override
    public String toString()
    {
-      return "ClassPojo [title = "+title+", description = "+description+", link = "+link+", lastBuildDate = "+lastBuildDate+", item = "+item+", language = "+language+", copyright = "+copyright+"]";
+      return "ClassPojo [title = "+title+", description = "+description+", link = "+link+", lastBuildDate = "+lastBuildDate+",language = "+language+", copyright = "+copyright+"]";
    }
 }
