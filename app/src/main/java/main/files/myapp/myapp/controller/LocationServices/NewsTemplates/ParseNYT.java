@@ -67,7 +67,6 @@ public class ParseNYT extends Thread {
                 }
 
 
-                System.out.println(article.toString());
                 SaveArticle saveArticle = new SaveArticle(article);
                 saveArticle.start();
 

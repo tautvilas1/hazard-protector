@@ -20,24 +20,20 @@ $table = "article";
 VALIDATE IF ARTICLE ALREADY EXISTS
 */
 
-$columns = array("title");
-$values = "Miami’s Cuban Exiles Celebrate Castro’s Death";
-$query = query::select($conn,$table,$columns,$values);
-print_r($query);
 
-// $date = date('Y-m-d H:i:s');
+$date = date('Y-m-d H:i:s');
 
-// $columns = array("title","link","description","thumbnail","publishDate","credit","tags","dateAdded");
+$columns = array("title","link","description","thumbnail","publishDate","credit","tags","dateAdded");
 
-// $values = array($_POST['title'],$_POST['link'],$_POST['description'],$_POST['thumbnail'],$_POST['publishDate'],$_POST['credit'],$_POST['tags'],$date);
+$values = array($_POST['title'],$_POST['link'],$_POST['description'],$_POST['thumbnail'],$_POST['publishDate'],$_POST['credit'],$_POST['tags'],$date);
 
-// if(query::insert($conn,$table,$columns,$values)) {
-// 	echo 'Query completed';
-// }
+if(query::insert($conn,$table,$columns,$values)) {
+	echo '1';
+}
 
-// else {
-// 	echo 'Query failed';
-// }
+else {
+	echo '0';
+}
 
 
  // $myfile = file_put_contents('log.txt', $_POST['description'].PHP_EOL , FILE_APPEND | LOCK_EX);

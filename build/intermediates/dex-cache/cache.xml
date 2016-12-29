@@ -39,15 +39,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Final project v3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f4f20a133e5af477017a867bbd5153611e163953">
-        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c1ff5febe743e3441f9e238fe4735e8d58cfa17f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -63,6 +54,15 @@
         revision="23.0.1"
         sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
         <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.3.0_1f161b07792f768a6127f1976499c4abe81d9c90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Final project v3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1dcee69e34acea2330df47930baddc52dd714bab">
+        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c1ff5febe743e3441f9e238fe4735e8d58cfa17f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,15 +84,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
-        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.3.0_6fa45101eb10ae574021cae121555f6072459006\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -111,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.3.0_6fa45101eb10ae574021cae121555f6072459006\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -120,21 +120,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Final project v3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ca15a04cd0c7bda4e2b6aa87649a4ff4d7ca2827">
-        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fd9b1dc39f917821c201269a3f634077eccc073a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="eb576427887e497cd958a475475f9206e38dc314">
         <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.3.0_7c9c0a430e0cc4ddd0a8579611161bb8fa4f24dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Final project v3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="35d187f8eb8fff78306a35741fdfd953005de680">
+        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fd9b1dc39f917821c201269a3f634077eccc073a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,21 +165,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\deadlylife\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.1\645f1ad2f6f4cbad1cde4c483eae71e4051be6ef\jsoup-1.10.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="645f1ad2f6f4cbad1cde4c483eae71e4051be6ef">
-        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.1_7b67b4bb3508511c5c5c2fef5e1d120b9e51ccc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Final project v3\app\jar\simple-xml-2.7.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="083623424bcfa03bd598e709765bad0816c2375d">
         <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\2\simple-xml-2.7.1_66ac14b7b513a367a325792806cc67e01270649f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\deadlylife\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.1\645f1ad2f6f4cbad1cde4c483eae71e4051be6ef\jsoup-1.10.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="645f1ad2f6f4cbad1cde4c483eae71e4051be6ef">
+        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\jsoup-1.10.1_7b67b4bb3508511c5c5c2fef5e1d120b9e51ccc3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -300,21 +300,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
-        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.3.0_336ce5ffa9f3d161741fc4825ca91ae1ab0185a4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\deadlylife\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
         <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_82297688558e2d495d838c319059918f17a01dd7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Final project v3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
+        <dex dex="C:\Final project v3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.3.0_336ce5ffa9f3d161741fc4825ca91ae1ab0185a4\classes.dex" />
     </item>
 
 </items>
